@@ -1,0 +1,50 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: #f8e7af;
+}
+
+form{
+    background-color: pink;
+    width: 60%;
+    height: auto;
+    font-size: 20px;
+  padding: 6%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+
+}
+
+#temp-diff{
+margin-top: 5px;
+color: black;
+border-radius: 10px;
+height: 25px;
+
+}
+
+#temp{
+    margin-top: 5px;
+}
+#submit{
+background-color: black;
+color: white;
+height: 30px;
+width: 50px;
+border-radius: 10px;
+margin-top: 12px;
+
+
+}
